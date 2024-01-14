@@ -1,0 +1,16 @@
+{
+  "name": "change_me",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "nodemon --watch src -e js --exec 'node ./src/main.js' && echo \"complied $(date +\"%H:%M:%S\")\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
